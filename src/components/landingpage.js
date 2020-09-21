@@ -30,7 +30,6 @@ class Landing extends Component {
 
                             </div> */}
                         </div>
-
                     </Cell>
                 </Grid>
             </div>
