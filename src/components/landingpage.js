@@ -8,7 +8,7 @@ class Landing extends Component {
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://pickaface.net/gallery/avatar/unr_goateebald_170216_1834_yvoxe.png" alt="youveGotMail" className="avatar-img" />
+                        <img src={require('../components/img/aolOffline.jpeg')} alt="mlabIsReal" className="avatar-img" />
                         <div className="banner-text">
                             <h1>Older Bolder Coder Growing Older</h1>
                             <hr />
