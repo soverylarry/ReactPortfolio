@@ -107,3 +107,9 @@ background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+
   padding-right: 5rem;
 
 }
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
