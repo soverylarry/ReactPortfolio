@@ -8,11 +8,11 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Larry Laconi</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        <img src={require('../components/img/toastyElon.jpg')}
                             alt="avatar"
                             style={{ height: '250px' }} />
 
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>loren is an ipsum who annoys the shit out of me all the time. RBG is gone and the country is going to shit</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>I didn't inhale...but by god I should have!</p>
                     </Cell>
 
                     <Cell col={6}>

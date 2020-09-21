@@ -10,8 +10,8 @@ class Landing extends Component {
                     <Cell col={12}>
                         <img src={require('../components/img/aolOffline.jpeg')} alt="mlabIsReal" className="avatar-img" />
                         <div className="banner-text">
-                            <h1>Older Bolder Coder Growing Older</h1>
-                            <hr />
+                            <h1>Larry Laconi..the first 500 hours are always free!</h1>
+                            {/* <hr /> */}
                             <p>HTML/CSS | MERN | Disco Dancing | Git | Javascript | React</p>
 
                             {/* <div className="social-links">

@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import { Grid, Cell} from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
 class Resume extends Component {
     render() {
-        return(
+        return (
             <div>
-                <Grid> 
+                <Grid>
                     <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                        <div style={{ textAlign: 'center' }}>
                             <img
-                                src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-                                alt="avatar"
-                                style={{height: '200px'}}/>
+                                src={require('../components/img/LLBridgeReduced.png')}
+                                alt="larry"
+                                style={{ height: '300px' }} />
                         </div>
 
-                        <h2 style={{paddingTop: '2em'}}>Larry Laconi</h2>
-                        <h4 style={{color: 'grey'}}>Bro-Coder Older</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <h2 style={{ paddingTop: '1em' }}>Larry Laconi</h2>
+                        <h4 style={{ color: 'grey' }}>Bro-Coder Older</h4>
+                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <p>I'm wrapping up six months of study at the UConn Coding Bootcamp. After that I'll be job searching while I go deep into the 'coding Dojo' to sharpen my Javascript and MERN skill set.</p>
+                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                         <h5>Address</h5>
                         <p>705 Quinnipiac Ave. New Haven, CT</p>
                         <h5>Phone</h5>
@@ -34,54 +34,60 @@ class Resume extends Component {
                         <h2>Education</h2>
 
                         <Education
-                            startYear={1990}
-                            endYear={1994}
-                            schoolName="Penn State University"
-                            schoolDescription="An unbelievably overrated piece of farm land in the middle of hillybilly central"
-                        />
-
-                        <Education
                             startYear={2020}
                             endYear={2020}
                             schoolName="UConn Coding Bootcamp"
-                            schoolDescription="An unbelievably overrated piece of farm land in the middle of hillybilly central"
+                            schoolDescription="Full Stack six month course covering both front end and back end development."
                         />
-                        <hr style={{borderTop: '3px sold #e22947'}}/> 
+
+                        <Education
+                            startYear={1990}
+                            endYear={1994}
+                            schoolName="Penn State University"
+                            schoolDescription="An unbelievably overrated piece of farm land in the middle of hillybilly central."
+                        />
+
+                        <hr style={{ borderTop: '3px sold #e22947' }} />
 
                         <h2>Experience</h2>
 
                         <Experience
-                              startYear={2015}
-                              endYear={2017}
-                              jobName="SeeClickFix"
-                              jobDescription="An unbelievably overrated piece of CEO Bro's and digital debt in the middle of New Haven central"
+                            startYear={2015}
+                            endYear={2017}
+                            jobName="SeeClickFix - Government Partnership Executive"
+                            jobDescription=" Negotiated Contracts for software as a service (SAAS) with municipalities.
+                             Closed Qualified Leads led to $140,000 in new annual recurring revenue.
+                             Qualified Leads led to $110,000 in annual recurring revenue."
                         />
 
                         <Experience
-                              startYear={2017}
-                              endYear={2020}
-                              jobName="CTrides"
-                              jobDescription="An unbelievably overrated piece of Public Transit horseshit in the middle of New Haven central"
-                        />         
-                        <hr style={{borderTop: '3px sold #e22947'}}/> 
+                            startYear={2017}
+                            endYear={2020}
+                            jobName="CTrides - Commuter Program Manager"
+                            jobDescription=" Assist medium to large municipalities, businesses, Higher Ed and non-profits to
+                            reduce employee single vehicle miles traveled within the state of Connecticut.
+                             Working on behalf of CT-DOT to disseminate information on commuter options and
+                            further state transportation goals."
+                        />
+                        <hr style={{ borderTop: '3px sold #e22947' }} />
 
-                        <h2>Skills</h2> 
+                        <h2>Skills</h2>
 
                         <Skills
-                        skill='Javascript'
-                        progress={80}
+                            skill='Javascript'
+                            progress={80}
                         />
                         <Skills
-                        skill='NodeJS'
-                        progress={70}
+                            skill='NodeJS'
+                            progress={70}
                         />
                         <Skills
-                        skill='HTML/CSS'
-                        progress={80}
+                            skill='HTML/CSS'
+                            progress={80}
                         />
                         <Skills
-                        skill='JQeury'
-                        progress={60}
+                            skill='JQeury'
+                            progress={60}
                         />
 
 

@@ -64,6 +64,7 @@ background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+
 
 .projects-grid {
   display: flex;
+  margin-top: 5em;
 }
 
 .contact-body {
@@ -112,4 +113,12 @@ background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.cardImageOne {
+  background-image: url("../src/components/img/fitness tracker.PNG");
+}
+
+.cardImageTwo {
+  background-image: url("../src/components/img/aolOffline.jpeg");
 }
