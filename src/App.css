@@ -117,8 +117,41 @@ background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+
 
 .cardImageOne {
   background-image: url("../src/components/img/fitness tracker.PNG");
+  background-size: 90%;
 }
 
 .cardImageTwo {
-  background-image: url("../src/components/img/aolOffline.jpeg");
+  background-image: url("../src/components/img/bankappsnap.PNG");
+  background-size: 93%;
 }
+
+.cardImageThree {
+  background-image: url("../src/components/img/snapShotFiveGuys.PNG");
+  background-size: 110%;
+}
+
+.cardImageFour {
+  background-image: url("../src/components/img/EmployeeTracker-screenShot.PNG");
+  background-size: 90%;
+}
+
+.cardImageFive {
+  background-image: url("../src/components/img/10-OOP-homework-demo-1.png");
+  background-size: 70%;
+}
+
+.cardImageSix {
+  background-image: url("../src/components/img/NoteTaker1.png");
+  background-size: 110%;
+}
+
+.cardImageSeven{
+  background-image: url("../src/components/img/freeToMe.PNG");
+  background-size: 105%;
+}
+
+.cardImageEight {
+  background-image: url("../src/components/img/bookCrawler.PNG");
+  background-size: 95%;
+}
+
